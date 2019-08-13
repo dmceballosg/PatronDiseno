@@ -15,14 +15,11 @@ El operador &quot;New&quot; se considera perjudicial (difícil de implementar)
 **Ej.** Dado un framework para presentar documentos (clase abstracta), se necesitan crear documentos sin depender del tipo de documento.
 
 
-
 **Ventajas:**
 
 - Limpieza del diseño.
 - Eliminación de dependencias de uso innecesarias o engorrosas.
 - Mayor abstracción y posibilidad de reutilización de código.
-
-**Estructura:**
 
 
 **¿Cuándo aplicarlo?**
