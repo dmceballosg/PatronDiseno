@@ -1,0 +1,2 @@
+# PatronDiseno
+Patrón de diseño: 
