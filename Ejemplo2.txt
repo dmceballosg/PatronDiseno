@@ -1,15 +1,19 @@
+//producto abstracto
 public abstract class Room {
    abstract void connect(Room room);
 }
 
+//producto concreto
 public class MagicRoom extends Room {
    public void connect(Room room) {}
 }
 
+//producto concreto 
 public class OrdinaryRoom extends Room {
    public void connect(Room room) {}
 }
 
+//creador abstracto
 public abstract class MazeGame {
     private final List<Room> rooms = new ArrayList<>();
 
@@ -24,6 +28,7 @@ public abstract class MazeGame {
     abstract protected Room makeRoom();
 }
 
+//creador concreto magic sobreescribe el metodo abstracto
 public class MagicMazeGame extends MazeGame {
     @Override
     protected Room makeRoom() {
@@ -31,6 +36,7 @@ public class MagicMazeGame extends MazeGame {
     }
 }
 
+//creador concreto ordinaria sobreescribe el metodo abstracto
 public class OrdinaryMazeGame extends MazeGame {
     @Override
     protected Room makeRoom() {
