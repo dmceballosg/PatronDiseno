@@ -13,6 +13,7 @@ El operador &quot;New&quot; se considera perjudicial (difícil de implementar)
 **Motivación:**
 
 **Ej.** Dado un framework para presentar documentos (clase abstracta), se necesitan crear documentos sin depender del tipo de documento.
+<img src="imagen1.jpg" alt="ejemplo1" height="100" width="100">
 
 
 **Ventajas:**
