@@ -24,7 +24,7 @@ El operador &quot;New&quot; se considera perjudicial (difícil de implementar)
 
 **Estructura**
 <br>
-<img src="imagen3.jpg" alt="ejemplo1" height="100%" width="100%">
+<img src="imagen3.JPG" alt="ejemplo1" height="100%" width="100%">
 
 **¿Cuándo aplicarlo?**
 
